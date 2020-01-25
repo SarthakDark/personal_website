@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav,
+    header,
+    footer {
+        display: block;
+    }
+    body {
+        margin: 0;
+        line-height: 1;
+        background-image: url(assets/backgroound.jpg);
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .jumbotron {
+        background-color: rgba(225, 212, 128, 0.5);
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    /*################# nav bar ############*/
+    
+    nav {
+        width: 100%;
+        margin: 0;
+    }
+    nav ul {
+        background-color: rgba(225, 212, 128, 0.5);
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        
+    }
+    ul.navbarr li {
+        list-style: none;
+        float: right;
+        
+    }
+    ul.navbarr li a {
+        display: block;
+        text-decoration: none;
+        min-height: 16px;
+        text-align: center;
+        padding: 14px;
+        text-transform: uppercase;
+        color: #4d2600;
+        
+    }
+    ul.navbarr li a:hover {
+        background-color: #4d2600;
+        color: azure;
+        border-style: solid;
+        border-width: 1px;
+        border-color: azure;
+        padding: 13px;
+    }
+    ul.navbarr li.drop_down_icon {
+        display: none;
+    }
+    ul.navbarr li.srj {
+        float: left;
+        color: #4d2600;
+    }
+    ul.navbarr li.srj:hover {
+        color: aliceblue;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .fa-fort-awesome {
+        color: #4d2600;
+        size: 64px;
+    }
+    .fa-fort-awesome:hover {
+        color: whitesmoke;
+        size: 64px;
+    }
+    /*###### animation ##########*/
+    
+    .ml9 {
+        position: relative;
+        font-weight: 200;
+        font-size: 4em;
+        font-family: Permanent Marker, cursive;
+        color: #331200;
+        text-shadow: 2px 2px 6px #331200;
+    }
+    .ml9 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+    }
+    .ml9 .letter {
+        transform-origin: 50% 100%;
+        display: inline-block;
+        line-height: 1em;
+    }
+    /*######### animation ########*/
+    /*###### image ######*/
+    
+    .myImg {
+        max-height: 500px;
+        display: block;
+        margin: auto;
+        border-radius: 0% 0% 50% 50%;
+        box-shadow: 0px 0px 29px -7px #662200;
+        -moz-box-shadow: 0px 0px 29px -7px #662200;
+        -webkit-box-shadow: 0px 0px 29px -7px #662200;
+    }
+    .myRow {
+        background: linear-gradient(to bottom, rgba(225, 212, 128, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+    }
+    .myyrow {
+        margin: 10px;
+        text-align: center;
+        color: #331200;
+        text-shadow: 0px 1px 7px #331200;
+        font-family: Ubuntu, sans-serif;
+    }
+    /*########about#######*/
+    
+    .largecontainer {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .smallcontainer {
+        text-align: center;
+        box-shadow: 0px 0px 29px -7px #662200;
+    }
+    .mycard {
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(77, 38, 0, 1);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(77, 38, 0, 1);
+        box-shadow: 0px 0px 21px 0px rgba(77, 38, 0, 1);
+    }
+    .myjumbo {
+        background-color: rgba(225, 212, 128, 0.75);
+    }
+    .about {
+        border-bottom: 3px double #331200;
+        color: #331200;
+    }
+    .col-sm-5 {
+        background-color: rgba(225, 212, 128, 0.75);
+        padding: 10px 40px 10px 40px;
+    }
+    .col-sm-12 {
+        padding: 0px;
+    }
+    .belowcol {
+        background-color: rgba(225, 212, 128, 0.75);
+    }
+    .lead {
+        color: #804000;
+    }
+    .cardtext {
+        font-size: 1.5rem;
+        color: rgba(51, 18, 0, 0.80);
+        text-align: center;
+        margin: 10px;
+    }
+    .c1,
+    .c2 {
+        padding-bottom: 20px;
+    }
+    .anothercol {
+        background-color: rgba(225, 212, 128, 0.75);
+        text-align: center;
+        font-weight: 500;
+    }
+    .downtext {
+        border-top: 1px solid #331200;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*##### about#######*/
+    /*######footer######*/
+    
+    .somecontainer {
+        color: burlywood;
+        background-color: #331200;
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+        font-family: Roboto, sans-serif;
+        padding: 40px;
+        text-align: center;
+    }
+    .fa-facebook {
+        color: blue;
+        font-size: 48px;
+    }
+    .fa-instagram {
+        font-size: 48px;
+        color: #ff6666;
+    }
+    .fa-linkedin {
+        color: aliceblue;
+        font-size: 48px;
+    }
+    p {
+        vertical-align: middle;
+    }
+    .icoo:hover {
+        font-size: 64px;
+    }
+    /*########### mobile ############*/
+    
+    @media screen and (max-width: 680px) {
+        ul.navbarr li:not(:nth-child(4)) {
+            display: none;
+        }
+        ul.navbarr li.drop_down_icon {
+            display: block;
+            float: right;
+        }
+        ul.navbarr.responsive {
+            position: relative;
+        }
+        ul.navbarr.responsive li {
+            display: inline;
+            float: none;
+        }
+        ul.navbarr.responsive li a {
+            display: block;
+            text-align: left;
+        }
+        ul.navbarr.responsive li.drop_down_icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .largecontainer {
+            margin-bottom: 0px;
+        }
+        .downtext {
+            padding-bottom: 10px;
+        }
+        .mail{
+            font-size: 1rem;
+        }
+        .somecontainer{
+            padding:20px;
+        }
+        
+        body{
+            background-size: cover;
+        }
+}
